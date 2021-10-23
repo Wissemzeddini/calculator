@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculatrice</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="card">
+		<h1 class="title" id="title">Calculatrice</h1>
+		<div class="space">
+			<div class="group1">
+				<input type="text" name="resualt" disabled="true" class="res" id="res">
+			</div>
+			<div class="group1">
+				<input type="button" name="1" value="1" class="btn" onclick="add('1')">
+				<input type="button" name="2" value="2" class="btn" onclick="add('2')">
+				<input type="button" name="3" value="3" class="btn" onclick="add('3')">
+				<input type="button" name="+" value="+" class="btn" onclick="operation('+')">
+			</div>
+			<div class="group1">
+				<input type="button" name="4" value="4" class="btn" onclick="add('4')">
+				<input type="button" name="5" value="5" class="btn" onclick="add('5')">
+				<input type="button" name="6" value="6" class="btn" onclick="add('6')">
+				<input type="button" name="-" value="-" class="btn" onclick="operation('-')">
+			</div>
+			<div class="group1">
+				<input type="button" name="7" value="7" class="btn" onclick="add('7')">
+				<input type="button" name="8" value="8" class="btn" onclick="add('8')">
+				<input type="button" name="9" value="9" class="btn" onclick="add('9')">
+				<input type="button" name="*" value="*" class="btn" onclick="operation('*')">
+			</div>
+			<div class="group1">
+				<input type="button" name="0" value="0" class="btn" onclick="add('0')">
+				<input type="button" name="/" value="/" class="btn" onclick="operation('/')">
+				<input type="button" name="." value="." class="btn" onclick="add('.')">
+				<input type="button" name="c" value="C" class="btn" onclick="reset()" id="reset">
+			</div>
+			<div class="group1">
+				<input type="button" name="=" value="=" class="btn2" onclick="equal()">
+				<input type="button" name="00" value="00" class="btn2" onclick="add('00')">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

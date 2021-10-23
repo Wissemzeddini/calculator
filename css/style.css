@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	font-family: monospace;
+}
+.card{
+	margin-left: 40%;
+	margin-top: 8%;
+	max-width: 250px;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+.title{
+	text-align: center;
+	font-size: 25px;
+	weight: 800;
+
+}
+.title-wrong{
+	text-align: center;
+	font-size: 25px;
+	weight: 800;
+	color: red;
+
+}
+.title:hover{
+	/*font-size: 28px;*/
+	color: #eee;
+	transition: 1s;
+	cursor: help;
+}
+.space{
+	padding-top: 10px;
+}
+.group1{
+	text-align: center;
+	padding-top: 10px;
+}
+.res{
+	width: 175px;
+	height: 40px;
+}
+.res-h{
+	width: 175px;
+	height: 40px;
+	border: 1px solid green;
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	background: #8cc3ec;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+.btn2{
+	width: 87px;
+	height: 40px;
+	background: #8cc3ec;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+.btn:hover{
+	background: white;
+	border: 1px solid #8cc3ec;
+	color: #8cc3ec;
+	cursor: pointer;
+}
+.btn2:hover{
+	background: white;
+	border: 1px solid #8cc3ec;
+	color: #8cc3ec;
+	cursor: pointer;
+}
+.gray{
+	width: 40px;
+	height: 40px;
+	background: gray;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+}
